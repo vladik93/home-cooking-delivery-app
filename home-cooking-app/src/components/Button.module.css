@@ -1,0 +1,15 @@
+.button {
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+  flex: 1;
+  /* height: 100px; */
+  background-image: linear-gradient(to right, #E1AFD1, #FFE6E6);
+  justify-content: center;
+  font-weight: 700;
+  border: none;
+  outline: none;
+}
+
+/* #FFE6E6
+#E1AFD1 */

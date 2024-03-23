@@ -2,12 +2,55 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #000D0C;
+  /* background-color: #000D0C; */
   color: #fff;
-
+  gap: 1.6rem;
+  background: url(./images/hero_3.png) no-repeat;
+  height: 100%;
+  background-size: cover;
+  /* background-position: center 300px; */
+  background-position: center 600px;
+  padding: 0.8rem;
+  animation: imageReveal 2s ease-in forwards;
+  
+  
 
 }
 
-img {
-  max-width: 100%;
+@keyframes imageReveal {
+  100% {
+    background-position: center 300px;
+  }
+}
+
+
+.input-wrapper {
+  margin-top: 1.6rem;
+  display: flex;
+  height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+
+}
+
+.input {
+  display: flex;
+  flex: 3;
+  padding: 0 1.6rem;
+}
+
+.title {
+  font-size: 3.6rem;
+}
+
+.subtitle {
+  color: #E1AFD1;
+}
+
+.title span {
+  color: red;
+}
+
+.text-wrapper p {
+  color: #E1AFD1;
 }

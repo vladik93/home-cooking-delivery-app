@@ -4,18 +4,23 @@
   box-sizing: border-box;
 }
 
-:root {
+#root {
+  width: 100%;
+}
+
+html {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
   font-size: 62.5%;
 }
 
 body {
+  min-height: 100vh;
   margin: 0;
   display: flex;
   min-width: 320px;
   font-size: 1.6rem;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: black;
 }
 
 
