@@ -1,0 +1,25 @@
+.slide {
+  min-height: 300px;
+  padding: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  transform: translateX(0%);
+  animation: moveSlide 2.5s linear infinite;
+}
+
+.slideWrapper {
+  display: flex;
+
+}
+
+@keyframes moveSlide {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
